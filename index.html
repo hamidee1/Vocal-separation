@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Vocal Separation App</title>
+<link rel="stylesheet" href="styles.css">
+<link rel="icon" href="assets/favicon.ico">
+</head>
+<body>
+<header><h1>تطبيق فصل الصوت</h1></header>
+<main>
+<section id="upload-section">
+<h2>رفع الأغنية</h2>
+<input type="file" id="audio-upload" accept="audio/*">
+<button id="upload-btn">رفع وفصل</button>
+<div id="progress-container"><div id="progress-bar"></div></div>
+</section>
+<section id="result-section">
+<h2>النتيجة</h2>
+<audio id="audio-player" controls></audio>
+<button id="download-btn">تحميل المسارات</button>
+</section>
+</main>
+<script src="scripts.js"></script>
+</body>
+</html>
